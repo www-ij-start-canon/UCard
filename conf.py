@@ -4,40 +4,48 @@ import os
 import sys
 
 # -- Path setup --------------------------------------------------------------
-# sys.path.insert(0, os.path.abspath('../src'))
+
+# If extensions or modules to document with autodoc are in another directory,
+# add these directories to sys.path here.
+# Example: sys.path.insert(0, os.path.abspath('../src'))
 
 # -- Project information -----------------------------------------------------
+
 project = 'Activate Your UnitedHealthcare UCard Online – Visit Activate.UHC.com Today'
 copyright = '2025, UnitedHealthcare'
 author = 'UnitedHealthcare'
 
-# The full version
+# The full version, including alpha/beta/rc tags
 release = '1.0.0'
 
-# -- General configuration ---------------------------------------------------
-extensions = []
+# -- HTML output settings ----------------------------------------------------
 
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
-# -- Options for HTML output -------------------------------------------------
+# Title shown in the browser tab and top of HTML pages
 html_title = "Activate Your UnitedHealthcare UCard Online – Visit Activate.UHC.com Today"
-html_short_title = "UHC Card Activation"
-html_favicon = 'favicon.ico'
-html_theme = 'furo'  # SEO-friendly modern theme
 
+# Optional short title (e.g., for nav bar)
+html_short_title = "UHC Card Activation"
+
+# Favicon (place favicon.ico in the root or _static folder)
+html_favicon = 'favicon.ico'
+
+# Choose a theme (uncomment if needed)
+# html_theme = 'sphinx_rtd_theme'
+
+# Hide "View page source"
 html_show_sourcelink = False
+
+# Allow raw HTML blocks in .rst files
 html_allow_unsafe = True
 
+# Theme customization options
 html_theme_options = {
-    'sidebar_hide_name': False,
-    'navigation_with_keys': True,
+    'show_powered_by': False,
 }
 
-# -- Meta tags for SEO -------------------------------------------------------
-def setup(app):
-    app.add_meta("description", "Easily activate your UnitedHealthcare UCard at activate.uhc.com. Log in with your member.uhc.com account to manage benefits, check balances, and start using your plan.")
-    app.add_meta("keywords", "activate.uhc.com, UnitedHealthcare UCard activation, member.uhc.com login, UHC card activate, UCard benefits")
-    app.add_meta("robots", "index, follow")
-    app.add_meta("author", "UnitedHealthcare")
-    app.add_meta("viewport", "width=device-width, initial-scale=1.0")
+# Paths to templates and static files
+templates_path = ['_templates']
+# html_static_path = ['_static']  # Uncomment if you have static assets
+
+# Patterns to ignore when looking for source files
+# exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
