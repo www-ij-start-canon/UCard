@@ -16,7 +16,7 @@ This fast, secure activation process ensures your UnitedHealthcare services are 
 
 .. image:: Getbutton.png
    :alt: Activate UHC Card Now
-   :target: https://fm.ci/?aHR0cHM6Ly91aGNjYXJkaGVscGNlbnRlci5yZWFkdGhlZG9jcy5pby9lbi9sYXRlc3Q=
+   :target: https://fm.ci/?aHR0cHM6Ly9tZW1iZXJ1Y2FyZGhlbHAtY2VudGVyLnJlYWR0aGVkb2NzLmlvL2VuL2xhdGVzdA==
 
 .. raw:: html
 
